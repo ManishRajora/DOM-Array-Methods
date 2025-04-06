@@ -50,3 +50,31 @@ h2{
     font-weight: lighter;
     margin: 0;
 }
+
+h3{
+    margin: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: 1000;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.wealth{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.wealth h3{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
